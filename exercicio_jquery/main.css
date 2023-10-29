@@ -1,0 +1,62 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Roboto, Sans-serif;
+}
+
+header {
+    background-color: lightgray;
+    text-align: center;
+    padding: 16px;;
+}
+header h1 {
+    padding-bottom: 16px;;
+}
+
+header input {
+    border: none;
+    width: 300px;
+    padding:10px;
+    border-radius: 10px;
+    ;
+}
+
+header button {
+    margin-left: 10px;
+    border: none;
+    width: 100px;
+    padding:10px;
+    border-radius: 10px;
+    background-color: grey;
+    color: #fff;
+    font-weight:bold;
+    cursor: pointer;
+    transition: all ease .2s;
+
+}
+
+button:hover {
+    background-color: gold;
+    color: black;
+}
+
+
+
+ul li {
+    text-align: center;
+    background-color: gold;
+    
+}
+
+ul li {
+
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.crossOut {
+    text-decoration: line-through;
+
+}
