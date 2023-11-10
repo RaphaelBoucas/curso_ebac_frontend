@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 1024px;
+}
+
+.cabecalho {
+    color:#fff;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 8px 0px;
+}
+
+.cabecalho h1 {
+    padding: 16px 0;
+    text-transform: uppercase;
+}
+
+form {
+    max-width: 100%;
+    font-size: large;
+    justify-content: center;
+    display: flex;
+    
+        }
+
+.campo-form {
+    width: 600px;
+    display: block;
+    
+}
+
+
+form button {
+    color: #fff;
+    background-color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 8px 20px;
+    width: 600px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: rgb(55, 55, 55);
+    
+
+}
+
+.campo-form input,
+.campo-form label {
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 8px;
+    
+}
+
+
+
+.campo-form input {
+    margin-bottom: 8px;
+    width: 600px;
+    height: 30px;
+    font-size: 20px;
+    border:none;
+    border-radius: 30px;
+    padding: 0px 10px;
+    background-color:rgb(232, 232, 232);
+}
+
+
+
+
+
