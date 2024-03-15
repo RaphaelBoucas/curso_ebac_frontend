@@ -50,3 +50,7 @@ const notasAzuis = alunos.forEach(element => {
         return console.log(`O ${element.nome} passou de ano, pois tirou ${element.nota}.`)
     }
 });
+
+const notasAzuisFilter = alunos.filter(item => item.nota >= 6)
+
+console.log(notasAzuisFilter)
