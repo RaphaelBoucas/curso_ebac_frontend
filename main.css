@@ -1,0 +1,72 @@
+*{
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+
+  
+}
+
+
+.barrasup{
+background-color: green;
+
+}
+
+
+.barrasup header li{
+
+    display:inline;
+    
+    
+}
+
+.article {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.article article {
+    padding: 10px 10px;
+    width: 30%;
+}
+.article article img {
+
+height:180px;
+
+
+}
+
+
+
+
+.contesportes{
+
+color: blue
+background-color: blanchedalmond;
+
+
+}
+
+.conteconomia{
+color: green;
+background-color: grey;
+
+
+}
+
+.contpolitica {
+
+    color: red;
+    background-color:black;
+
+ 
+}
+
+.contentretenimento{
+
+    color: yellow;
+    background: grey
+  
+}
